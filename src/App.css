@@ -1,0 +1,18 @@
+
+
+
+@font-face 
+{font-family: "Compacta"; src: url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.eot"); 
+src: url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.eot?#iefix") format("embedded-opentype"), 
+url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.woff2") format("woff2"), 
+url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.woff") format("woff"), 
+url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.ttf") format("truetype"), 
+url("//db.onlinewebfonts.com/t/f82cba211182fbb07d3510cbe89c7ccb.svg#Compacta") format("svg"); }
+
+
+h1{
+	font-family: 'Compacta' ;
+	font-weight: 200;
+	color: #0DE1F0;
+
+}
