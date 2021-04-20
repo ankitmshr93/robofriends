@@ -9,6 +9,7 @@ import { createLogger } from 'redux-logger';
 import 'tachyons';
 import App from './App';
 import { searchRobots,requestRobots } from './reducers';
+import serviceworker from '../node_modules/caniuse-lite/data/features/serviceworkers';
 
 const logger = createLogger();
 const rootReducer=combineReducers({searchRobots,requestRobots})
@@ -18,4 +19,5 @@ ReactDOM.render(
 		<App />	
 	</Provider>
 	, document.getElementById('root'));
+serviceworker.register();
 reportWebVitals();
